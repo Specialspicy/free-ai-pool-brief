@@ -1,0 +1,530 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-11-15T09:44:23.529961+00:00",
+  "period": "2026-11-15",
+  "summary": {
+    "providers_ok": 6,
+    "providers_total": 6,
+    "catalog_models": 1720,
+    "free_now": 53,
+    "usable_now": 13,
+    "tally": {
+      "AT_CAPACITY": 3,
+      "WORKING": 12,
+      "BLOCKED": 1,
+      "REACHABLE": 1,
+      "NEEDS_KEY": 3,
+      "NEW": 11,
+      "NEEDS_SIGNUP": 22
+    },
+    "new_since_last": 1,
+    "gone_since_last": 0,
+    "degraded_snapshot": false
+  },
+  "providers": [
+    {
+      "provider": "APInex",
+      "status": "ok (44 models, 22 free)",
+      "models": 44,
+      "free": 22,
+      "ok": true
+    },
+    {
+      "provider": "NVIDIA NIM",
+      "status": "ok (83 models, 0 free)",
+      "models": 83,
+      "free": 0,
+      "ok": true
+    },
+    {
+      "provider": "Nous Portal",
+      "status": "ok (400 models, 3 free)",
+      "models": 400,
+      "free": 3,
+      "ok": true
+    },
+    {
+      "provider": "OpenRouter",
+      "status": "ok (470 models, 17 free)",
+      "models": 470,
+      "free": 17,
+      "ok": true
+    },
+    {
+      "provider": "Vercel AI Gateway",
+      "status": "ok (507 models, 5 free)",
+      "models": 507,
+      "free": 5,
+      "ok": true
+    },
+    {
+      "provider": "Zenmux",
+      "status": "ok (216 models, 6 free)",
+      "models": 216,
+      "free": 6,
+      "ok": true
+    }
+  ],
+  "free_models": [
+    {
+      "model": "baidu/ernie-5.5-flash-preview:free",
+      "provider": "OpenRouter",
+      "tier": "WORKING",
+      "evidence": "live turn ok, reply='OK'",
+      "in_per_1m": 0.0,
+      "out_per_1m": 0.0,
+      "context": 1024000,
+      "first_seen": "2026-11-14T23:19:51.287727+00:00"
+    },
+    {
+      "model": "cohere/north-mini-code:free",
+      "provider": "OpenRouter",
+      "tier": "WORKING",
+      "evidence": "live turn ok, reply='OK'",
+      "in_per_1m": 0.0,
+      "out_per_1m": 0.0,
+      "context": 256000,
+      "first_seen": "2026-11-14T23:19:51.351401+00:00"
+    },
+    {
+      "model": "dots-studio/dots-3-note-preview:free",
+      "provider": "OpenRouter",
+      "tier": "WORKING",
+      "evidence": "live turn ok, reply='\\n\\nOK'",
+      "in_per_1m": 0.0,
+      "out_per_1m": 0.0,
+      "context": 512000,
+      "first_seen": "2026-11-14T23:19:51.336841+00:00"
+    },
+    {
+      "model": "google/lyria-3-clip-preview",
+      "provider": "OpenRouter",
+      "tier": "WORKING",
+      "evidence": "live turn ok, reply='[8.0:12.0] OK'",
+      "in_per_1m": 0.0,
+      "out_per_1m": 0.0,
+      "context": 1048576,
+      "first_seen": "2026-11-14T23:19:51.404202+00:00"
+    },
+    {
+      "model": "google/lyria-3-pro-preview",
+      "provider": "OpenRouter",
+      "tier": "REACHABLE",
+      "evidence": "HTTP 200, empty content (reasoning/silent model)",
+      "in_per_1m": 0.0,
+      "out_per_1m": 0.0,
+      "context": 1048576,
+      "first_seen": "2026-11-14T23:19:51.392209+00:00"
+    },
+    {
+      "model": "liquid/lfm-3-1.7b:free",
+      "provider": "OpenRouter",
+      "tier": "WORKING",
+      "evidence": "live turn ok, reply='OK'",
+      "in_per_1m": 0.0,
+      "out_per_1m": 0.0,
+      "context": 262144,
+      "first_seen": "2026-11-14T23:19:51.305726+00:00"
+    },
+    {
+      "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "provider": "OpenRouter",
+      "tier": "WORKING",
+      "evidence": "live turn ok, reply='OK'",
+      "in_per_1m": 0.0,
+      "out_per_1m": 0.0,
+      "context": 256000,
+      "first_seen": "2026-11-14T23:19:51.366400+00:00"
+    },
+    {
+      "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "provider": "OpenRouter",
+      "tier": "WORKING",
+      "evidence": "live turn ok, reply='OK'",
+      "in_per_1m": 0.0,
+      "out_per_1m": 0.0,
+      "context": 1000000,
+      "first_seen": "2026-11-14T23:19:51.359472+00:00"
+    },
+    {
+      "model": "nvidia/nemotron-3.5-lightning:free",
+      "provider": "OpenRouter",
+      "tier": "WORKING",
+      "evidence": "live turn ok, reply='OK'",
+      "in_per_1m": 0.0,
+      "out_per_1m": 0.0,
+      "context": 1000000,
+      "first_seen": "2026-11-14T23:19:51.344397+00:00"
+    },
+    {
+      "model": "nvidia/nemotron-3.5-super-vl:free",
+      "provider": "OpenRouter",
+      "tier": "WORKING",
+      "evidence": "live turn ok, reply='OK'",
+      "in_per_1m": 0.0,
+      "out_per_1m": 0.0,
+      "context": 1000000,
+      "first_seen": "2026-11-14T23:19:51.328809+00:00"
+    },
+    {
+      "model": "openrouter/free",
+      "provider": "OpenRouter",
+      "tier": "WORKING",
+      "evidence": "live turn ok, reply='OK'",
+      "in_per_1m": 0.0,
+      "out_per_1m": 0.0,
+      "context": 200000,
+      "first_seen": "2026-11-14T23:19:51.415114+00:00"
+    },
+    {
+      "model": "particle-ai/particle-1:free",
+      "provider": "OpenRouter",
+      "tier": "WORKING",
+      "evidence": "live turn ok, reply='OK'",
+      "in_per_1m": 0.0,
+      "out_per_1m": 0.0,
+      "context": 1048576,
+      "first_seen": "2026-11-14T23:19:51.313802+00:00"
+    },
+    {
+      "model": "recursive/flint-v1.0:free",
+      "provider": "OpenRouter",
+      "tier": "WORKING",
+      "evidence": "live turn ok, reply='OK'",
+      "in_per_1m": 0.0,
+      "out_per_1m": 0.0,
+      "context": 262144,
+      "first_seen": "2026-11-14T23:19:51.321777+00:00"
+    }
+  ],
+  "at_capacity": [
+    {
+      "model": "inclusionai/ling-3.2-flash:free",
+      "provider": "OpenRouter",
+      "tier": "AT_CAPACITY",
+      "evidence": "HTTP 429 (rate/capacity, not dead)",
+      "in_per_1m": 0.0,
+      "out_per_1m": 0.0,
+      "context": 1048576,
+      "first_seen": "2026-11-14T23:19:51.286717+00:00"
+    },
+    {
+      "model": "google/gemma-4-26b-a4b-it:free",
+      "provider": "OpenRouter",
+      "tier": "AT_CAPACITY",
+      "evidence": "HTTP 429 (rate/capacity, not dead)",
+      "in_per_1m": 0.0,
+      "out_per_1m": 0.0,
+      "context": 262144,
+      "first_seen": "2026-11-14T23:19:51.374463+00:00"
+    },
+    {
+      "model": "google/gemma-4-31b-it:free",
+      "provider": "OpenRouter",
+      "tier": "AT_CAPACITY",
+      "evidence": "HTTP 429 (rate/capacity, not dead)",
+      "in_per_1m": 0.0,
+      "out_per_1m": 0.0,
+      "context": 262144,
+      "first_seen": "2026-11-14T23:19:51.382411+00:00"
+    }
+  ],
+  "blocked": [
+    {
+      "model": "thinkingmachines/inkling-2-small:free",
+      "provider": "OpenRouter",
+      "tier": "BLOCKED",
+      "evidence": "HTTP 403 forbidden (route/region/bot gate)",
+      "in_per_1m": 0.0,
+      "out_per_1m": 0.0,
+      "context": 1048576,
+      "first_seen": "2026-11-14T23:19:51.296807+00:00"
+    }
+  ],
+  "needs_key": [
+    {
+      "model": "upstage/solar-mini4:free",
+      "provider": "Nous Portal",
+      "tier": "NEEDS_KEY",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": 0.0,
+      "out_per_1m": 0.0,
+      "context": 524288,
+      "first_seen": "2026-11-14T23:19:51.428214+00:00"
+    },
+    {
+      "model": "stepfun/step-3.7-flash:free",
+      "provider": "Nous Portal",
+      "tier": "NEEDS_KEY",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": 0.0,
+      "out_per_1m": 0.0,
+      "context": 262144,
+      "first_seen": "2026-11-14T23:19:51.438125+00:00"
+    },
+    {
+      "model": "meituan/longcat-2.5:free",
+      "provider": "Nous Portal",
+      "tier": "NEEDS_KEY",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": 0.0,
+      "out_per_1m": 0.0,
+      "context": 1048576,
+      "first_seen": "2026-11-14T23:19:51.446214+00:00"
+    }
+  ],
+  "needs_signup": [
+    {
+      "model": "free/mimo-v2.6-pro",
+      "provider": "APInex",
+      "tier": "NEEDS_SIGNUP",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": null,
+      "first_seen": "2026-11-14T23:19:51.604428+00:00"
+    },
+    {
+      "model": "free/qwen-3.8-max",
+      "provider": "APInex",
+      "tier": "NEEDS_SIGNUP",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": null,
+      "first_seen": "2026-11-14T23:19:51.614333+00:00"
+    },
+    {
+      "model": "free/kimi-k3",
+      "provider": "APInex",
+      "tier": "NEEDS_SIGNUP",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": null,
+      "first_seen": "2026-11-14T23:19:51.625364+00:00"
+    },
+    {
+      "model": "free/deepseek-v4.1-flash",
+      "provider": "APInex",
+      "tier": "NEEDS_SIGNUP",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": null,
+      "first_seen": "2026-11-14T23:19:51.634512+00:00"
+    },
+    {
+      "model": "free/gemini-3.8-flash",
+      "provider": "APInex",
+      "tier": "NEEDS_SIGNUP",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": null,
+      "first_seen": "2026-11-14T23:19:51.643820+00:00"
+    },
+    {
+      "model": "free/glm-5.3-flash",
+      "provider": "APInex",
+      "tier": "NEEDS_SIGNUP",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": null,
+      "first_seen": "2026-11-14T23:19:51.654922+00:00"
+    },
+    {
+      "model": "free/deepseek-v4-pro-0813",
+      "provider": "APInex",
+      "tier": "NEEDS_SIGNUP",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": null,
+      "first_seen": "2026-11-14T23:19:51.667922+00:00"
+    },
+    {
+      "model": "free/deepseek-v4-flash-0731",
+      "provider": "APInex",
+      "tier": "NEEDS_SIGNUP",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": null,
+      "first_seen": "2026-11-14T23:19:51.684032+00:00"
+    },
+    {
+      "model": "free/muse-spark-1.3",
+      "provider": "APInex",
+      "tier": "NEEDS_SIGNUP",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": null,
+      "first_seen": "2026-11-14T23:19:51.694752+00:00"
+    },
+    {
+      "model": "free/hy4",
+      "provider": "APInex",
+      "tier": "NEEDS_SIGNUP",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": null,
+      "first_seen": "2026-11-14T23:19:51.704787+00:00"
+    },
+    {
+      "model": "free/glm-5.3",
+      "provider": "APInex",
+      "tier": "NEEDS_SIGNUP",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": null,
+      "first_seen": "2026-11-14T23:19:51.713933+00:00"
+    },
+    {
+      "model": "free/minimax-m3.1-flash",
+      "provider": "APInex",
+      "tier": "NEEDS_SIGNUP",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": null,
+      "first_seen": "2026-11-14T23:19:51.724554+00:00"
+    },
+    {
+      "model": "free/gpt-6-luna",
+      "provider": "APInex",
+      "tier": "NEEDS_SIGNUP",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": null,
+      "first_seen": "2026-11-14T23:19:51.735624+00:00"
+    },
+    {
+      "model": "free/jev-1.13",
+      "provider": "APInex",
+      "tier": "NEEDS_SIGNUP",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": null,
+      "first_seen": "2026-11-14T23:19:51.751667+00:00"
+    },
+    {
+      "model": "free/mimo-v2.6-flash",
+      "provider": "APInex",
+      "tier": "NEEDS_SIGNUP",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": null,
+      "first_seen": "2026-11-14T23:19:51.765735+00:00"
+    },
+    {
+      "model": "free/glm-5.3-flashx",
+      "provider": "APInex",
+      "tier": "NEEDS_SIGNUP",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": null,
+      "first_seen": "2026-11-14T23:19:51.775767+00:00"
+    },
+    {
+      "model": "free/minimax-m3",
+      "provider": "APInex",
+      "tier": "NEEDS_SIGNUP",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": null,
+      "first_seen": "2026-11-14T23:19:51.787673+00:00"
+    },
+    {
+      "model": "free/claude-sonnet-4.6",
+      "provider": "APInex",
+      "tier": "NEEDS_SIGNUP",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": null,
+      "first_seen": "2026-11-14T23:19:51.803363+00:00"
+    },
+    {
+      "model": "free/claude-opus-4.6",
+      "provider": "APInex",
+      "tier": "NEEDS_SIGNUP",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": null,
+      "first_seen": "2026-11-14T23:19:51.814365+00:00"
+    },
+    {
+      "model": "free/gemini-3.1-pro",
+      "provider": "APInex",
+      "tier": "NEEDS_SIGNUP",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": null,
+      "first_seen": "2026-11-14T23:19:51.824370+00:00"
+    },
+    {
+      "model": "free/kimi-k2.8",
+      "provider": "APInex",
+      "tier": "NEEDS_SIGNUP",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": null,
+      "first_seen": "2026-11-14T23:19:51.860041+00:00"
+    },
+    {
+      "model": "free/gemini-4-hydrogen",
+      "provider": "APInex",
+      "tier": "NEEDS_SIGNUP",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": null,
+      "first_seen": "2026-11-15T09:40:09.986031+00:00"
+    }
+  ],
+  "changes": {
+    "new": [
+      "OpenRouter|openrouter/free"
+    ],
+    "gone": []
+  },
+  "actions": [
+    "NEEDS_SIGNUP: free signup, no card needed -> instant access to 22 free models",
+    "NEEDS_KEY: add NOUS_API_KEY / APINEX_API_KEY to hermes .env -> 3 catalog-confirmed free models",
+    "BLOCKED: listed free but refused from our egress (1) - retry, don't assume dead",
+    "AT_CAPACITY: at capacity right now (3) - free but queued/429"
+  ],
+  "trend": [
+    {
+      "date": "2026-11-15",
+      "free_total": 53,
+      "usable_total": 13
+    }
+  ],
+  "provenance": {
+    "sources": [
+      "https://www.llmperks.com/",
+      "https://aifree.dev/",
+      "https://raw.githubusercontent.com/peter123023/awesome-free-llm-api/main/README.md",
+      "https://raw.githubusercontent.com/rockbenben/free-llm-intel/main/README.md",
+      "https://openrouter.ai/api/v1/models",
+      "https://inference-api.nousresearch.com/v1/models",
+      "https://apinex.bond/api/public/models"
+    ],
+    "method": "catalog pricing (zeros / :free suffix / synthesized-free flag) cross-checked against a live 400-token chat probe; tiers: WORKING (text back) / REACHABLE (200 but silent) / AT_CAPACITY (429) / BLOCKED (403) / DEAD / NEEDS_KEY / NEEDS_SIGNUP",
+    "probe_grading_note": "an empty reply is not a success: reasoning models burn the token budget silently, so they grade REACHABLE, not WORKING"
+  }
+}
