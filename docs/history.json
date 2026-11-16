@@ -120,5 +120,66 @@
       "OpenRouter|recursive/flint-v1.0:free",
       "OpenRouter|thinkingmachines/inkling-2-small:free"
     ]
+  },
+  {
+    "date": "2026-11-16",
+    "ts": "2026-11-16T00:18:49.333012+00:00",
+    "providers": {
+      "APInex": {
+        "models": 44,
+        "free": 22
+      },
+      "NVIDIA NIM": {
+        "models": 83,
+        "free": 0
+      },
+      "Nous Portal": {
+        "models": 398,
+        "free": 3
+      },
+      "OpenRouter": {
+        "models": 467,
+        "free": 17
+      },
+      "Vercel AI Gateway": {
+        "models": 507,
+        "free": 5
+      },
+      "Zenmux": {
+        "models": 216,
+        "free": 6
+      }
+    },
+    "free_total": 53,
+    "usable_total": 14,
+    "tally": {
+      "WORKING": 13,
+      "BLOCKED": 1,
+      "AT_CAPACITY": 2,
+      "REACHABLE": 1,
+      "NEEDS_KEY": 3,
+      "NEW": 11,
+      "NEEDS_SIGNUP": 22
+    },
+    "degraded": false,
+    "free_keys": [
+      "OpenRouter|baidu/ernie-5.5-flash-preview:free",
+      "OpenRouter|cohere/north-mini-code:free",
+      "OpenRouter|dots-studio/dots-3-note-preview:free",
+      "OpenRouter|google/gemma-4-26b-a4b-it:free",
+      "OpenRouter|google/gemma-4-31b-it:free",
+      "OpenRouter|google/lyria-3-clip-preview",
+      "OpenRouter|google/lyria-3-pro-preview",
+      "OpenRouter|inclusionai/ling-3.2-flash:free",
+      "OpenRouter|liquid/lfm-3-1.7b:free",
+      "OpenRouter|nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "OpenRouter|nvidia/nemotron-3-ultra-550b-a55b:free",
+      "OpenRouter|nvidia/nemotron-3.5-lightning:free",
+      "OpenRouter|nvidia/nemotron-3.5-super-vl:free",
+      "OpenRouter|openrouter/free",
+      "OpenRouter|particle-ai/particle-1:free",
+      "OpenRouter|recursive/flint-v1.0:free",
+      "OpenRouter|thinkingmachines/inkling-2-small:free"
+    ]
   }
 ]
