@@ -1,21 +1,20 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-16T00:18:49.336023+00:00",
-  "period": "2026-11-16",
+  "generated_at": "2026-11-17T00:24:16.876071+00:00",
+  "period": "2026-11-17",
   "summary": {
     "providers_ok": 6,
     "providers_total": 6,
-    "catalog_models": 1715,
-    "free_now": 53,
-    "usable_now": 14,
+    "catalog_models": 1682,
+    "free_now": 56,
+    "usable_now": 11,
     "tally": {
-      "WORKING": 13,
-      "BLOCKED": 1,
-      "AT_CAPACITY": 2,
-      "REACHABLE": 1,
-      "NEEDS_KEY": 3,
-      "NEW": 11,
-      "NEEDS_SIGNUP": 22
+      "WORKING": 11,
+      "BLOCKED": 3,
+      "AT_CAPACITY": 3,
+      "NEEDS_KEY": 4,
+      "NEW": 12,
+      "NEEDS_SIGNUP": 23
     },
     "new_since_last": 0,
     "gone_since_last": 0,
@@ -24,43 +23,43 @@
   "providers": [
     {
       "provider": "APInex",
-      "status": "ok (44 models, 22 free)",
-      "models": 44,
-      "free": 22,
+      "status": "ok (45 models, 23 free)",
+      "models": 45,
+      "free": 23,
       "ok": true
     },
     {
       "provider": "NVIDIA NIM",
-      "status": "ok (83 models, 0 free)",
-      "models": 83,
+      "status": "ok (33 models, 0 free)",
+      "models": 33,
       "free": 0,
       "ok": true
     },
     {
       "provider": "Nous Portal",
-      "status": "ok (398 models, 3 free)",
-      "models": 398,
-      "free": 3,
+      "status": "ok (402 models, 4 free)",
+      "models": 402,
+      "free": 4,
       "ok": true
     },
     {
       "provider": "OpenRouter",
-      "status": "ok (467 models, 17 free)",
-      "models": 467,
+      "status": "ok (470 models, 17 free)",
+      "models": 470,
       "free": 17,
       "ok": true
     },
     {
       "provider": "Vercel AI Gateway",
-      "status": "ok (507 models, 5 free)",
-      "models": 507,
-      "free": 5,
+      "status": "ok (513 models, 6 free)",
+      "models": 513,
+      "free": 6,
       "ok": true
     },
     {
       "provider": "Zenmux",
-      "status": "ok (216 models, 6 free)",
-      "models": 216,
+      "status": "ok (219 models, 6 free)",
+      "models": 219,
       "free": 6,
       "ok": true
     }
@@ -97,26 +96,6 @@
       "first_seen": "2026-11-14T23:19:51.336841+00:00"
     },
     {
-      "model": "google/lyria-3-clip-preview",
-      "provider": "OpenRouter",
-      "tier": "WORKING",
-      "evidence": "live turn ok, reply='[4.0:8.0] OK\\n[16.0:2'",
-      "in_per_1m": 0.0,
-      "out_per_1m": 0.0,
-      "context": 1048576,
-      "first_seen": "2026-11-14T23:19:51.404202+00:00"
-    },
-    {
-      "model": "google/lyria-3-pro-preview",
-      "provider": "OpenRouter",
-      "tier": "REACHABLE",
-      "evidence": "HTTP 200, empty content (reasoning/silent model)",
-      "in_per_1m": 0.0,
-      "out_per_1m": 0.0,
-      "context": 1048576,
-      "first_seen": "2026-11-14T23:19:51.392209+00:00"
-    },
-    {
       "model": "inclusionai/ling-3.2-flash:free",
       "provider": "OpenRouter",
       "tier": "WORKING",
@@ -125,16 +104,6 @@
       "out_per_1m": 0.0,
       "context": 1048576,
       "first_seen": "2026-11-14T23:19:51.286717+00:00"
-    },
-    {
-      "model": "liquid/lfm-3-1.7b:free",
-      "provider": "OpenRouter",
-      "tier": "WORKING",
-      "evidence": "live turn ok, reply='OK'",
-      "in_per_1m": 0.0,
-      "out_per_1m": 0.0,
-      "context": 262144,
-      "first_seen": "2026-11-14T23:19:51.305726+00:00"
     },
     {
       "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
@@ -180,7 +149,7 @@
       "model": "openrouter/free",
       "provider": "OpenRouter",
       "tier": "WORKING",
-      "evidence": "live turn ok, reply='OK'",
+      "evidence": "live turn ok, reply='\\n\\nOK'",
       "in_per_1m": 0.0,
       "out_per_1m": 0.0,
       "context": 200000,
@@ -208,6 +177,16 @@
     }
   ],
   "at_capacity": [
+    {
+      "model": "liquid/lfm-3-1.7b:free",
+      "provider": "OpenRouter",
+      "tier": "AT_CAPACITY",
+      "evidence": "HTTP 429 (rate/capacity, not dead)",
+      "in_per_1m": 0.0,
+      "out_per_1m": 0.0,
+      "context": 262144,
+      "first_seen": "2026-11-14T23:19:51.305726+00:00"
+    },
     {
       "model": "google/gemma-4-26b-a4b-it:free",
       "provider": "OpenRouter",
@@ -239,6 +218,26 @@
       "out_per_1m": 0.0,
       "context": 1048576,
       "first_seen": "2026-11-14T23:19:51.296807+00:00"
+    },
+    {
+      "model": "google/lyria-3-pro-preview",
+      "provider": "OpenRouter",
+      "tier": "BLOCKED",
+      "evidence": "HTTP 403 forbidden (route/region/bot gate)",
+      "in_per_1m": 0.0,
+      "out_per_1m": 0.0,
+      "context": 1048576,
+      "first_seen": "2026-11-14T23:19:51.392209+00:00"
+    },
+    {
+      "model": "google/lyria-3-clip-preview",
+      "provider": "OpenRouter",
+      "tier": "BLOCKED",
+      "evidence": "HTTP 403 forbidden (route/region/bot gate)",
+      "in_per_1m": 0.0,
+      "out_per_1m": 0.0,
+      "context": 1048576,
+      "first_seen": "2026-11-14T23:19:51.404202+00:00"
     }
   ],
   "needs_key": [
@@ -271,6 +270,16 @@
       "out_per_1m": 0.0,
       "context": 1048576,
       "first_seen": "2026-11-14T23:19:51.446214+00:00"
+    },
+    {
+      "model": "tencent/hy4-flash:free",
+      "provider": "Nous Portal",
+      "tier": "NEEDS_KEY",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": 0.0,
+      "out_per_1m": 0.0,
+      "context": 1048576,
+      "first_seen": "2026-11-17T00:23:01.930611+00:00"
     }
   ],
   "needs_signup": [
@@ -493,6 +502,16 @@
       "out_per_1m": null,
       "context": null,
       "first_seen": "2026-11-15T09:40:09.986031+00:00"
+    },
+    {
+      "model": "free/hy4-flash",
+      "provider": "APInex",
+      "tier": "NEEDS_SIGNUP",
+      "evidence": "catalog-confirmed free; needs account/key this tool does not hold",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": null,
+      "first_seen": "2026-11-17T00:23:02.831872+00:00"
     }
   ],
   "changes": {
@@ -500,10 +519,10 @@
     "gone": []
   },
   "actions": [
-    "NEEDS_SIGNUP: free signup, no card needed -> instant access to 22 free models",
-    "NEEDS_KEY: add NOUS_API_KEY / APINEX_API_KEY to hermes .env -> 3 catalog-confirmed free models",
-    "BLOCKED: listed free but refused from our egress (1) - retry, don't assume dead",
-    "AT_CAPACITY: at capacity right now (2) - free but queued/429"
+    "NEEDS_SIGNUP: free signup, no card needed -> instant access to 23 free models",
+    "NEEDS_KEY: add NOUS_API_KEY / APINEX_API_KEY to hermes .env -> 4 catalog-confirmed free models",
+    "BLOCKED: listed free but refused from our egress (3) - retry, don't assume dead",
+    "AT_CAPACITY: at capacity right now (3) - free but queued/429"
   ],
   "trend": [
     {
@@ -515,6 +534,11 @@
       "date": "2026-11-15",
       "free_total": 53,
       "usable_total": 13
+    },
+    {
+      "date": "2026-11-16",
+      "free_total": 53,
+      "usable_total": 14
     }
   ],
   "provenance": {
