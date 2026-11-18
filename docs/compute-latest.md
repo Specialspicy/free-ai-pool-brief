@@ -1,4 +1,4 @@
-# Free Compute — verified daily section (2026-11-17)
+# Free Compute — verified daily section (2026-11-18)
 
 | Provider | Offer | What's free | Card? | Auto-charge? | Quota / expiry |
 |---|---|---|---|---|---|
@@ -15,7 +15,7 @@
 | Azure Free Account | Azure Database for PostgreSQL | 750 hours of Flexible Server—Burstable B1MS Instance, 32 GB storage, and 32 GB backup storage | None | None | 750 hours of Flexible Server—Burstable B1MS Instance, 32 GB storage, and 32 GB backup storage · expires 12 months |
 | Azure Free Account | Azure SQL Database (serverless) | 100,000 vCore seconds of SQL database serverless usage per month with 32 GB of storage | None | None | 100,000 vCore seconds per month with 32 GB of storage |
 | Azure Free Account | Azure Functions | 1 million requests | None | None | 1 million requests |
-| Cohere (trial key) | Trial API key | A Trial API key automatically created with each account for API access | None | None | — |
+| Cohere (trial key) | Trial API key | API calls made from a Trial API key | None | None | — |
 | Google Cloud Free Tier | $300 free credit for new customers | $300 in free credit to try Google Cloud products | None | None | $300 |
 | Google Cloud Free Tier | Compute Engine e2-micro instance | 1 e2-micro instance per month | None | None | 1 e2-micro instance per month |
 | Google Cloud Free Tier | Cloud Storage Standard Storage | 5 GB-months Standard Storage | None | None | 5 GB-months Standard Storage |

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-17T00:24:17.043456+00:00",
+  "generated_at": "2026-11-18T00:29:30.799301+00:00",
   "offers": [
     {
       "key": "aws free tier|aws free tier new account credits",
@@ -214,16 +214,16 @@
       "key": "cohere (trial key)|trial api key",
       "provider": "Cohere (trial key)",
       "url": "https://cohere.com/pricing",
-      "ts": "2026-11-16T00:18:49.511070+00:00",
+      "ts": "2026-11-18T00:29:30.799301+00:00",
       "offer": "Trial API key",
-      "what_free": "A Trial API key automatically created with each account for API access",
-      "offer_type": "always-free",
+      "what_free": "API calls made from a Trial API key",
+      "offer_type": "timed-trial",
       "card_required": null,
       "auto_charge": null,
       "quota": null,
       "expiry": null,
-      "quote": "When an account is created, we automatically create an Trial API key for you.",
-      "confidence": "medium",
+      "quote": "API calls made from a Trial API key are free.",
+      "confidence": "high",
       "verified_quote": true
     },
     {
@@ -619,11 +619,11 @@
   "page_status": {
     "Oracle Cloud (OCI) Always Free": "ok (0 offers verified, 0 dropped)",
     "AWS Free Tier": "ok (0 offers verified, 0 dropped)",
-    "Google Cloud Free Tier": "ok (6 offers verified, 0 dropped)",
-    "Azure Free Account": "ok (6 offers verified, 0 dropped)",
-    "Modal (serverless GPU credits)": "ok (6 offers verified, 0 dropped)",
+    "Google Cloud Free Tier": "ok (0 offers verified, 0 dropped)",
+    "Azure Free Account": "ok (0 offers verified, 0 dropped)",
+    "Modal (serverless GPU credits)": "ok (0 offers verified, 0 dropped)",
     "Replicate": "ok (0 offers verified, 0 dropped)",
-    "Cohere (trial key)": "ok (0 offers verified, 0 dropped)",
+    "Cohere (trial key)": "ok (1 offers verified, 0 dropped)",
     "Groq (free tier)": "ok (0 offers verified, 0 dropped)",
     "Cerebras Cloud": "ok (0 offers verified, 0 dropped)",
     "Hugging Face (Spaces CPU)": "ok (0 offers verified, 0 dropped)"

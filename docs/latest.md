@@ -1,9 +1,9 @@
-# Free AI Pool — verified daily brief (2026-11-17)
+# Free AI Pool — verified daily brief (2026-11-18)
 
-_Generated 2026-11-17T00:24:16.876071+00:00 · schema 1.0 · free-tier intelligence, liveness-verified_
+_Generated 2026-11-18T00:29:30.626614+00:00 · schema 1.0 · free-tier intelligence, liveness-verified_
 
 ## Today in one line
-**11 models answer for $0 right now** across 6/6 live catalogs (1682 models scanned). 0 newly free, 0 gone since the last run.
+**11 models answer for $0 right now** across 6/6 live catalogs (1700 models scanned). 0 newly free, 0 gone since the last run.
 
 ## Usable now (verified by live probe)
 
@@ -11,13 +11,13 @@ _Generated 2026-11-17T00:24:16.876071+00:00 · schema 1.0 · free-tier intellige
 |---|---|---|---|
 | `baidu/ernie-5.5-flash-preview:free` | OpenRouter | **WORKING** | live turn ok, reply='OK' |
 | `cohere/north-mini-code:free` | OpenRouter | **WORKING** | live turn ok, reply='OK' |
-| `dots-studio/dots-3-note-preview:free` | OpenRouter | **WORKING** | live turn ok, reply='\n\nOK' |
+| `dots-studio/dots-3-note-preview:free` | OpenRouter | **WORKING** | live turn ok, reply='OK' |
 | `inclusionai/ling-3.2-flash:free` | OpenRouter | **WORKING** | live turn ok, reply='OK' |
 | `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free` | OpenRouter | **WORKING** | live turn ok, reply='OK' |
 | `nvidia/nemotron-3-ultra-550b-a55b:free` | OpenRouter | **WORKING** | live turn ok, reply='OK' |
 | `nvidia/nemotron-3.5-lightning:free` | OpenRouter | **WORKING** | live turn ok, reply='OK' |
 | `nvidia/nemotron-3.5-super-vl:free` | OpenRouter | **WORKING** | live turn ok, reply='OK' |
-| `openrouter/free` | OpenRouter | **WORKING** | live turn ok, reply='\n\nOK' |
+| `openrouter/free` | OpenRouter | **WORKING** | live turn ok, reply='OK' |
 | `particle-ai/particle-1:free` | OpenRouter | **WORKING** | live turn ok, reply='OK' |
 | `recursive/flint-v1.0:free` | OpenRouter | **WORKING** | live turn ok, reply='OK' |
 
@@ -47,6 +47,7 @@ _Generated 2026-11-17T00:24:16.876071+00:00 · schema 1.0 · free-tier intellige
 | 2026-11-15 | 53 | 13 |
 | 2026-11-15 | 53 | 13 |
 | 2026-11-16 | 53 | 14 |
+| 2026-11-17 | 56 | 11 |
 
 ## Method (why this is not just a listings site)
 
